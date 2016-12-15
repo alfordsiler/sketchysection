@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sketchy Section</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&libraries=visualization"></script>
+</head>
+<body>
+
+	<header>
+		<img src="img/logo.svg">
+	</header>
+
+	<div class="map-area">
+	<div id="map"></div>
+	<div class="range-selector">
+		<p>Search<br>Radius</p>
+		<div class="radius"><p>1<br>mile</p></div>
+		<div class="radius"><p>5<br>miles</p></div>
+		<div class="radius"><p>10<br>miles</p></div>
+	</div>
+
+	<h3 class="motto">Find the most dangerous intersections in Seattle!</h3>
+
+	<form class="search-form">
+		<input type="text" placeholder="123 Street Seattle WA" name="address">
+		<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+		<p>enter a Seattle address</p>
+	</form>
+
+
+	<script>
+		$(".radius").on('click', function() {
+			$(this).css("background-color", "blue")
+		});
+	</script>
+
+	<script type="text/javascript" src="js/map.js"></script>
+
+</body>
+</html>

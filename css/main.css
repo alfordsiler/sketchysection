@@ -1,0 +1,79 @@
+body {
+	background-color: #a6a6a6;
+	background: url('../img/diamond.svg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+header {
+	height: 50px;
+	width: 100%;
+	margin-top: -10px;
+}
+
+header img {
+	display: block;
+	margin: 0 auto;
+	height: 130px;
+	width: 300px;
+}
+
+#map {
+	width:500px;
+	height: 375px;
+	background-color: gray;
+}
+
+.map-area {
+	width: 580px;
+	height: 375px;
+	display: block;
+	margin: 50px auto 20px;
+}
+
+.range-selector {
+	height: 375px;
+	width: 80px;
+	float: right;
+	background-color: black;
+	margin-top: -375px;
+	margin-right: 15px;
+	color: gray;
+}
+
+.range-selector p {
+  text-align: center;
+  font-size: 1.2em;
+}
+
+.radius {
+	height: 65px;
+	width: 65px;
+	border: 3px solid gray;
+	border-radius: 100%;
+	display: block;
+	margin: 0 auto 15px;
+	text-align: center;
+}
+
+.radius p {
+	margin-top: 10px;
+}
+
+.motto {
+	text-align: center;
+	font-size: 2em;
+}
+
+.search-form {
+	display: block;
+	margin: 20px 0;
+	text-align: center;
+
+}
+
+input {
+	width: 250px;
+}
