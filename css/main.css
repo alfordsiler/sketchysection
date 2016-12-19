@@ -37,6 +37,7 @@ header img {
 	margin: 20px auto;
 	font-size: 1.3em;
 	padding: 2% 4%;
+	background-color: rgba(255, 255, 255, 0.7);
 }
 
 .about-section h4 {
